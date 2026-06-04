@@ -1,0 +1,33 @@
+{
+  "theme": {
+    "background_color": "#0f111a",
+    "component_color": "#1a1d2e",
+    "text_color": "#e8ecf1",
+    "accent_color": "#6366f1",
+    "error_color": "#f87171",
+    "success_color": "#4ade80",
+    "warning_color": "#fbbf24",
+    "title_font_family": "Segoe UI",
+    "font_family": "Segoe UI",
+    "font_size": 11,
+    "title_font_size": 14
+  },
+  "window": {
+    "width": 900,
+    "height": 590,
+    "min_width": 720,
+    "min_height": 480,
+    "center_on_start": true,
+    "remember_size": true,
+    "remember_position": true
+  },
+  "app": {
+    "language": "es",
+    "auto_backup": true,
+    "backup_interval_days": 7,
+    "show_statistics": true,
+    "confirm_delete": true,
+    "show_welcome_screen": true,
+    "max_recent_tests": 10
+  }
+}
