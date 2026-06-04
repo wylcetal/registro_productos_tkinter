@@ -1,4 +1,10 @@
-def centrar_ventana(ventana, aplicacion_ancho, aplicacion_largo):
+import tkinter as tk
+
+
+def centrar_ventana(
+    ventana: tk.Tk, aplicacion_ancho: int, aplicacion_largo: int
+) -> str:
+    """Centra la ventana en la pantalla con el ancho y alto dados."""
     pantalla_ancho = ventana.winfo_screenwidth()
     pantalla_largo = ventana.winfo_screenheight()
     x = int((pantalla_ancho / 2) - (aplicacion_ancho / 2))
